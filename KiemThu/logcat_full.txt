@@ -1,0 +1,93 @@
+--------- beginning of main
+10-20 14:34:45.357 19913 19913 D A4_231A290036: MainActivity.onCreate
+10-20 14:34:45.579 19913 19913 D A4_231A290036: MainActivity.onStart
+10-20 14:34:45.581 19913 19913 D A4_231A290036: MainActivity.onResume
+10-20 14:34:51.972 20021 20021 D A4_231A290036: MainActivity.onCreate
+10-20 14:34:52.506 20021 20021 D A4_231A290036: MainActivity.onStart
+10-20 14:34:52.523 20021 20021 D A4_231A290036: MainActivity.onResume
+10-20 14:34:55.796 20021 20021 D A4_231A290036: Phép tính: 12.00 / 3.00 = 4.00
+10-20 14:35:03.116 20021 20021 W A4_231A290036: Dữ liệu số không hợp lệ
+10-20 14:35:03.116 20021 20021 W A4_231A290036: java.lang.NumberFormatException: Sai định dạng số
+10-20 14:35:03.116 20021 20021 W A4_231A290036: 	at vn.edu.vhu.ltdd.a4events.Calculator.parse(Calculator.java:9)
+10-20 14:35:03.116 20021 20021 W A4_231A290036: 	at vn.edu.vhu.ltdd.a4events.MainActivity.readNumber(MainActivity.java:59)
+10-20 14:35:03.116 20021 20021 W A4_231A290036: 	at vn.edu.vhu.ltdd.a4events.MainActivity.tinhToan(MainActivity.java:68)
+10-20 14:35:03.116 20021 20021 W A4_231A290036: 	at vn.edu.vhu.ltdd.a4events.MainActivity.lambda$onCreate$2(MainActivity.java:31)
+10-20 14:35:03.116 20021 20021 W A4_231A290036: 	at vn.edu.vhu.ltdd.a4events.MainActivity.$r8$lambda$c2dR9lkWuyr4Sxv3N-snrmY0_M0(Unknown Source:0)
+10-20 14:35:03.116 20021 20021 W A4_231A290036: 	at vn.edu.vhu.ltdd.a4events.MainActivity$$ExternalSyntheticLambda2.onClick(D8$$SyntheticClass:0)
+10-20 14:35:03.116 20021 20021 W A4_231A290036: 	at android.view.View.performClick(View.java:8083)
+10-20 14:35:03.116 20021 20021 W A4_231A290036: 	at com.google.android.material.button.MaterialButton.performClick(MaterialButton.java:1218)
+10-20 14:35:03.116 20021 20021 W A4_231A290036: 	at vn.edu.vhu.ltdd.a4events.LabRunner.lambda$click$0(LabRunner.java:55)
+10-20 14:35:03.116 20021 20021 W A4_231A290036: 	at vn.edu.vhu.ltdd.a4events.LabRunner.$r8$lambda$LY3TdW60SrYdbxOKOazihB2QWWs(Unknown Source:0)
+10-20 14:35:03.116 20021 20021 W A4_231A290036: 	at vn.edu.vhu.ltdd.a4events.LabRunner$$ExternalSyntheticLambda1.run(D8$$SyntheticClass:0)
+10-20 14:35:03.116 20021 20021 W A4_231A290036: 	at android.app.Instrumentation$SyncRunnable.run(Instrumentation.java:2616)
+10-20 14:35:03.116 20021 20021 W A4_231A290036: 	at android.os.Handler.handleCallback(Handler.java:995)
+10-20 14:35:03.116 20021 20021 W A4_231A290036: 	at android.os.Handler.dispatchMessage(Handler.java:103)
+10-20 14:35:03.116 20021 20021 W A4_231A290036: 	at android.os.Looper.loopOnce(Looper.java:248)
+10-20 14:35:03.116 20021 20021 W A4_231A290036: 	at android.os.Looper.loop(Looper.java:338)
+10-20 14:35:03.116 20021 20021 W A4_231A290036: 	at android.app.ActivityThread.main(ActivityThread.java:9067)
+10-20 14:35:03.116 20021 20021 W A4_231A290036: 	at java.lang.reflect.Method.invoke(Native Method)
+10-20 14:35:03.116 20021 20021 W A4_231A290036: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:593)
+10-20 14:35:03.116 20021 20021 W A4_231A290036: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:932)
+10-20 14:35:04.781 20021 20021 D A4_231A290036: Phép tính: -5.50 - 2.00 = -7.50
+10-20 14:35:06.034 20021 20021 W A4_231A290036: Dữ liệu số không hợp lệ
+10-20 14:35:06.034 20021 20021 W A4_231A290036: java.lang.NumberFormatException: Sai định dạng số
+10-20 14:35:06.034 20021 20021 W A4_231A290036: 	at vn.edu.vhu.ltdd.a4events.Calculator.parse(Calculator.java:9)
+10-20 14:35:06.034 20021 20021 W A4_231A290036: 	at vn.edu.vhu.ltdd.a4events.MainActivity.readNumber(MainActivity.java:59)
+10-20 14:35:06.034 20021 20021 W A4_231A290036: 	at vn.edu.vhu.ltdd.a4events.MainActivity.tinhToan(MainActivity.java:68)
+10-20 14:35:06.034 20021 20021 W A4_231A290036: 	at vn.edu.vhu.ltdd.a4events.MainActivity.lambda$onCreate$0(MainActivity.java:27)
+10-20 14:35:06.034 20021 20021 W A4_231A290036: 	at vn.edu.vhu.ltdd.a4events.MainActivity.$r8$lambda$p0YiZeJ_KlJzLGIkXoMmXqunjGo(Unknown Source:0)
+10-20 14:35:06.034 20021 20021 W A4_231A290036: 	at vn.edu.vhu.ltdd.a4events.MainActivity$$ExternalSyntheticLambda0.onClick(D8$$SyntheticClass:0)
+10-20 14:35:06.034 20021 20021 W A4_231A290036: 	at android.view.View.performClick(View.java:8083)
+10-20 14:35:06.034 20021 20021 W A4_231A290036: 	at com.google.android.material.button.MaterialButton.performClick(MaterialButton.java:1218)
+10-20 14:35:06.034 20021 20021 W A4_231A290036: 	at vn.edu.vhu.ltdd.a4events.LabRunner.lambda$click$0(LabRunner.java:55)
+10-20 14:35:06.034 20021 20021 W A4_231A290036: 	at vn.edu.vhu.ltdd.a4events.LabRunner.$r8$lambda$LY3TdW60SrYdbxOKOazihB2QWWs(Unknown Source:0)
+10-20 14:35:06.034 20021 20021 W A4_231A290036: 	at vn.edu.vhu.ltdd.a4events.LabRunner$$ExternalSyntheticLambda1.run(D8$$SyntheticClass:0)
+10-20 14:35:06.034 20021 20021 W A4_231A290036: 	at android.app.Instrumentation$SyncRunnable.run(Instrumentation.java:2616)
+10-20 14:35:06.034 20021 20021 W A4_231A290036: 	at android.os.Handler.handleCallback(Handler.java:995)
+10-20 14:35:06.034 20021 20021 W A4_231A290036: 	at android.os.Handler.dispatchMessage(Handler.java:103)
+10-20 14:35:06.034 20021 20021 W A4_231A290036: 	at android.os.Looper.loopOnce(Looper.java:248)
+10-20 14:35:06.034 20021 20021 W A4_231A290036: 	at android.os.Looper.loop(Looper.java:338)
+10-20 14:35:06.034 20021 20021 W A4_231A290036: 	at android.app.ActivityThread.main(ActivityThread.java:9067)
+10-20 14:35:06.034 20021 20021 W A4_231A290036: 	at java.lang.reflect.Method.invoke(Native Method)
+10-20 14:35:06.034 20021 20021 W A4_231A290036: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:593)
+10-20 14:35:06.034 20021 20021 W A4_231A290036: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:932)
+10-20 14:35:13.366 20021 20021 W A4_231A290036: Dữ liệu số không hợp lệ
+10-20 14:35:13.366 20021 20021 W A4_231A290036: java.lang.NumberFormatException: Số vượt giới hạn
+10-20 14:35:13.366 20021 20021 W A4_231A290036: 	at vn.edu.vhu.ltdd.a4events.Calculator.parse(Calculator.java:11)
+10-20 14:35:13.366 20021 20021 W A4_231A290036: 	at vn.edu.vhu.ltdd.a4events.MainActivity.readNumber(MainActivity.java:59)
+10-20 14:35:13.366 20021 20021 W A4_231A290036: 	at vn.edu.vhu.ltdd.a4events.MainActivity.tinhToan(MainActivity.java:68)
+10-20 14:35:13.366 20021 20021 W A4_231A290036: 	at vn.edu.vhu.ltdd.a4events.MainActivity.lambda$onCreate$0(MainActivity.java:27)
+10-20 14:35:13.366 20021 20021 W A4_231A290036: 	at vn.edu.vhu.ltdd.a4events.MainActivity.$r8$lambda$p0YiZeJ_KlJzLGIkXoMmXqunjGo(Unknown Source:0)
+10-20 14:35:13.366 20021 20021 W A4_231A290036: 	at vn.edu.vhu.ltdd.a4events.MainActivity$$ExternalSyntheticLambda0.onClick(D8$$SyntheticClass:0)
+10-20 14:35:13.366 20021 20021 W A4_231A290036: 	at android.view.View.performClick(View.java:8083)
+10-20 14:35:13.366 20021 20021 W A4_231A290036: 	at com.google.android.material.button.MaterialButton.performClick(MaterialButton.java:1218)
+10-20 14:35:13.366 20021 20021 W A4_231A290036: 	at vn.edu.vhu.ltdd.a4events.LabRunner.lambda$click$0(LabRunner.java:55)
+10-20 14:35:13.366 20021 20021 W A4_231A290036: 	at vn.edu.vhu.ltdd.a4events.LabRunner.$r8$lambda$LY3TdW60SrYdbxOKOazihB2QWWs(Unknown Source:0)
+10-20 14:35:13.366 20021 20021 W A4_231A290036: 	at vn.edu.vhu.ltdd.a4events.LabRunner$$ExternalSyntheticLambda1.run(D8$$SyntheticClass:0)
+10-20 14:35:13.366 20021 20021 W A4_231A290036: 	at android.app.Instrumentation$SyncRunnable.run(Instrumentation.java:2616)
+10-20 14:35:13.366 20021 20021 W A4_231A290036: 	at android.os.Handler.handleCallback(Handler.java:995)
+10-20 14:35:13.366 20021 20021 W A4_231A290036: 	at android.os.Handler.dispatchMessage(Handler.java:103)
+10-20 14:35:13.366 20021 20021 W A4_231A290036: 	at android.os.Looper.loopOnce(Looper.java:248)
+10-20 14:35:13.366 20021 20021 W A4_231A290036: 	at android.os.Looper.loop(Looper.java:338)
+10-20 14:35:13.366 20021 20021 W A4_231A290036: 	at android.app.ActivityThread.main(ActivityThread.java:9067)
+10-20 14:35:13.366 20021 20021 W A4_231A290036: 	at java.lang.reflect.Method.invoke(Native Method)
+10-20 14:35:13.366 20021 20021 W A4_231A290036: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:593)
+10-20 14:35:13.366 20021 20021 W A4_231A290036: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:932)
+10-20 14:35:14.709 20021 20021 D A4_231A290036: Phép tính: 1.00 + 2.00 = 3.00
+10-20 14:35:15.955 20021 20021 D A4_231A290036: Phép tính: 2.00 + 2.00 = 4.00
+10-20 14:35:17.203 20021 20021 D A4_231A290036: Phép tính: 3.00 + 2.00 = 5.00
+10-20 14:35:18.460 20021 20021 D A4_231A290036: Phép tính: 4.00 + 2.00 = 6.00
+10-20 14:35:19.718 20021 20021 D A4_231A290036: Phép tính: 5.00 + 2.00 = 7.00
+10-20 14:35:20.965 20021 20021 D A4_231A290036: Phép tính: 6.00 + 2.00 = 8.00
+10-20 14:35:22.667 20021 20021 D A4_231A290036: MainActivity.onPause
+10-20 14:35:22.812 20021 20021 D A4_231A290036: MainActivity.onStop
+10-20 14:35:22.900 20021 20021 D A4_231A290036: MainActivity.onDestroy
+10-20 14:35:23.444 20021 20021 D A4_231A290036: MainActivity.onCreate
+10-20 14:35:23.580 20021 20021 D A4_231A290036: MainActivity.onStart
+10-20 14:35:23.593 20021 20021 D A4_231A290036: MainActivity.onResume
+10-20 14:35:27.100 20021 20021 D A4_231A290036: MainActivity.onPause
+10-20 14:35:27.111 20021 20021 D A4_231A290036: MainActivity.onStop
+10-20 14:35:27.114 20021 20021 D A4_231A290036: MainActivity.onDestroy
+10-20 14:35:27.146 20021 20021 D A4_231A290036: MainActivity.onCreate
+10-20 14:35:27.296 20021 20021 D A4_231A290036: MainActivity.onStart
+10-20 14:35:27.298 20021 20021 D A4_231A290036: MainActivity.onResume

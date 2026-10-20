@@ -15,6 +15,7 @@ public class MainActivity extends LabActivity {
     private TextView tvKetQua,tvBmi,tvPhanLoai,tvLichSu;
     private ArrayList<String> history=new ArrayList<>();
     private double lastBmi=-1;
+    private Toast activeToast;
     @Override protected void onCreate(Bundle state) {
         super.onCreate(state);
         showLayout(R.layout.activity_main);
@@ -45,7 +46,11 @@ public class MainActivity extends LabActivity {
     }
     private void error(EditText field,String text) {
         field.setError(text); field.requestFocus();
-        Toast.makeText(this,text,Toast.LENGTH_SHORT).show();
+        clearNotice();
+        activeToast=Toast.makeText(this,text,Toast.LENGTH_SHORT); activeToast.show();
+    }
+    private void clearNotice() {
+        if(activeToast!=null) {activeToast.cancel(); activeToast=null;}
     }
     private Double readNumber(EditText field) {
         field.setError(null);
@@ -57,6 +62,7 @@ public class MainActivity extends LabActivity {
         }
     }
     private void tinhToan(char op) {
+        clearNotice();
         tvKetQua.setText(R.string.result_placeholder);
         edtSoA.setError(null); edtSoB.setError(null);
         Double a=readNumber(edtSoA); if(a==null) return;
@@ -71,6 +77,7 @@ public class MainActivity extends LabActivity {
         } catch(IllegalArgumentException e) { error(edtSoA,e.getMessage()); }
     }
     private void xoaTrang() {
+        clearNotice();
         edtSoA.setText(""); edtSoB.setText("");
         edtSoA.setError(null); edtSoB.setError(null);
         tvKetQua.setText(R.string.result_placeholder); edtSoA.requestFocus();
@@ -79,6 +86,7 @@ public class MainActivity extends LabActivity {
         tvLichSu.setText(history.isEmpty()?getString(R.string.history_empty):android.text.TextUtils.join("\n",history));
     }
     private void tinhBmi() {
+        clearNotice();
         lastBmi=-1; tvBmi.setText(""); tvPhanLoai.setText("");
         edtCanNang.setError(null); edtChieuCao.setError(null);
         Double weight=readNumber(edtCanNang); if(weight==null) return;
