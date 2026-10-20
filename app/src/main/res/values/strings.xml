@@ -24,4 +24,6 @@
     <string name="err_not_number">Vui lòng nhập đúng định dạng số</string>
     <string name="err_divide_zero">Không thể chia cho 0</string>
     <string name="err_positive">Cân nặng và chiều cao phải lớn hơn 0</string>
+<string name="history_title">5 phép tính gần nhất (giữ khi xoay màn hình)</string>
+<string name="history_empty">Chưa có phép tính</string>
 </resources>
